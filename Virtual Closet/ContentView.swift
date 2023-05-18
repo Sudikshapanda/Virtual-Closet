@@ -10,9 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image("Drip Master")
-                .resizable()
-                .scaledToFit()
+            //Image("Drip Master")
+               // .resizable()
+               // .scaledToFit()
+               // .animation(.easeInOut, value: true)
         }
         .padding()
     }
@@ -23,3 +24,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+    

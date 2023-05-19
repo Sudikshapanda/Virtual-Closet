@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03B5A0062A1808190090DF27 /* Economica in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A0052A1808180090DF27 /* Economica */; };
 		03B5A0082A1809110090DF27 /* Economica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A0072A1809110090DF27 /* Economica-Bold.ttf */; };
 		03B5A00A2A18091C0090DF27 /* Economica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A0092A18091C0090DF27 /* Economica-Regular.ttf */; };
 		03B5A00C2A1809B60090DF27 /* Economica-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A00B2A1809B60090DF27 /* Economica-Italic.ttf */; };
@@ -41,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03B5A0052A1808180090DF27 /* Economica */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Economica; path = ../../../../Downloads/Economica; sourceTree = "<group>"; };
 		03B5A0072A1809110090DF27 /* Economica-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Economica-Bold.ttf"; sourceTree = "<group>"; };
 		03B5A0092A18091C0090DF27 /* Economica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Economica-Regular.ttf"; sourceTree = "<group>"; };
 		03B5A00B2A1809B60090DF27 /* Economica-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Economica-Italic.ttf"; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 				03B5A0092A18091C0090DF27 /* Economica-Regular.ttf */,
 				03B5A00B2A1809B60090DF27 /* Economica-Italic.ttf */,
 				03B5A00D2A1809C90090DF27 /* Economica-BoldItalic.ttf */,
-				03B5A0052A1808180090DF27 /* Economica */,
 				672497492A17CBCC004CC12E /* MyClosetView.swift */,
 				6724973F2A16E7C5004CC12E /* Launch Screen.storyboard */,
 				6710FE1C2A0C1CE60048FB75 /* Assets.xcassets */,
@@ -261,7 +258,6 @@
 				6710FE202A0C1CE60048FB75 /* Preview Assets.xcassets in Resources */,
 				6710FE1D2A0C1CE60048FB75 /* Assets.xcassets in Resources */,
 				03B5A00E2A1809C90090DF27 /* Economica-BoldItalic.ttf in Resources */,
-				03B5A0062A1808190090DF27 /* Economica in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,29 +23,25 @@ struct ContentView: View {
                     .offset(y: -110)
                     .animation(.easeInOut, value: true)
                 HStack {
+                    // Button 1: My Closet
                     Button(action: {showingCloset.toggle()}){
                         Text("My Closet")
-                            .multilineTextAlignment(.center)
-                            .padding(.trailing, 25)
                     }
-                    .padding()
-                    .offset(y: -568)
+                    .offset(x: -42 , y: -568)
                     .buttonStyle(HomeButton())
+                    
+                    // Button 2: Add Item
                     Button(action: {showingAddItem.toggle()}){
                         Text("Add Item")
-                            .multilineTextAlignment(.center)
-                            .padding(.trailing, 25)
                     }
-                    .padding()
-                    .offset(y: -568)
+                    .offset(x: 8 , y: -568)
                     .buttonStyle(HomeButton())
+                    
+                    // Button 3: Clean Closet
                     Button(action: {showingCleanCloset.toggle()}){
                         Text("Clean Closet")
-                            .multilineTextAlignment(.trailing)
-                            .padding(.leading)
                     }
-                    .padding()
-                    .offset(y: -568)
+                    .offset(x: 50 , y: -568)
                     .buttonStyle(HomeButton())
                 }
             }
@@ -57,9 +53,12 @@ struct ContentView: View {
 struct HomeButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .fontWeight(.bold)
+            .padding(.vertical, 3)
+            .fontWeight(.medium)
             .foregroundColor(Color.black)
-            
+            .font(.custom(
+                "Economica",
+                fixedSize: 36))
     }
 }
 

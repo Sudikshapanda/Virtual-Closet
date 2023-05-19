@@ -10,12 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            //Image("Drip Master")
-               // .resizable()
-               // .scaledToFit()
+            Image("my closet")
+                .resizable()
+                .frame(width:1056, height:1024)
+            
+               //.scaledToFit()
                // .animation(.easeInOut, value: true)
         }
         .padding()
+        
     }
 }
 

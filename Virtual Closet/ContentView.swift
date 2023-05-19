@@ -25,14 +25,42 @@ struct ContentView: View {
                 HStack {
                     Button(action: {showingCloset.toggle()}){
                         Text("My Closet")
+                            .multilineTextAlignment(.center)
+                            .padding(.trailing, 25)
                     }
+                    .padding()
                     .offset(y: -568)
-                    //Button(action: {sh})
+                    .buttonStyle(HomeButton())
+                    Button(action: {showingAddItem.toggle()}){
+                        Text("Add Item")
+                            .multilineTextAlignment(.center)
+                            .padding(.trailing, 25)
+                    }
+                    .padding()
+                    .offset(y: -568)
+                    .buttonStyle(HomeButton())
+                    Button(action: {showingCleanCloset.toggle()}){
+                        Text("Clean Closet")
+                            .multilineTextAlignment(.trailing)
+                            .padding(.leading)
+                    }
+                    .padding()
+                    .offset(y: -568)
+                    .buttonStyle(HomeButton())
                 }
             }
             .padding()
         }
 }
+}
+
+struct HomeButton: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .fontWeight(.bold)
+            .foregroundColor(Color.black)
+            
+    }
 }
 
 

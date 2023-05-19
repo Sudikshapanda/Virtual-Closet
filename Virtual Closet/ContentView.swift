@@ -13,9 +13,8 @@ struct ContentView: View {
             Image("my closet")
                 .resizable()
                 .frame(width:1056, height:1024)
-            
-               //.scaledToFit()
-               // .animation(.easeInOut, value: true)
+                .offset(y: -110)
+                .animation(.easeInOut, value: true)
         }
         .padding()
         

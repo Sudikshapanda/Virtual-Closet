@@ -58,7 +58,7 @@ struct HomeButton: ButtonStyle {
             .foregroundColor(Color.black)
             .font(.custom(
                 "Economica",
-                fixedSize: 36))
+                fixedSize: 25))
     }
 }
 

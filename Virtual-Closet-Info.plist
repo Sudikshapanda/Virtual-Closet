@@ -6,6 +6,8 @@
 	<array>
 		<string>Economica-Bold.ttf</string>
 		<string>Economica-Regular.ttf</string>
+		<string>Economica-Italic</string>
+		<string>Economica-BoldItalic</string>
 	</array>
 	<key>UILaunchScreen</key>
 	<dict>

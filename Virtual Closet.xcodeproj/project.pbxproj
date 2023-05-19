@@ -10,6 +10,8 @@
 		03B5A0062A1808190090DF27 /* Economica in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A0052A1808180090DF27 /* Economica */; };
 		03B5A0082A1809110090DF27 /* Economica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A0072A1809110090DF27 /* Economica-Bold.ttf */; };
 		03B5A00A2A18091C0090DF27 /* Economica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A0092A18091C0090DF27 /* Economica-Regular.ttf */; };
+		03B5A00C2A1809B60090DF27 /* Economica-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A00B2A1809B60090DF27 /* Economica-Italic.ttf */; };
+		03B5A00E2A1809C90090DF27 /* Economica-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A00D2A1809C90090DF27 /* Economica-BoldItalic.ttf */; };
 		6710FE192A0C1CE40048FB75 /* Virtual_ClosetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710FE182A0C1CE40048FB75 /* Virtual_ClosetApp.swift */; };
 		6710FE1B2A0C1CE40048FB75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710FE1A2A0C1CE40048FB75 /* ContentView.swift */; };
 		6710FE1D2A0C1CE60048FB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6710FE1C2A0C1CE60048FB75 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		03B5A0052A1808180090DF27 /* Economica */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Economica; path = ../../../../Downloads/Economica; sourceTree = "<group>"; };
 		03B5A0072A1809110090DF27 /* Economica-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Economica-Bold.ttf"; sourceTree = "<group>"; };
 		03B5A0092A18091C0090DF27 /* Economica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Economica-Regular.ttf"; sourceTree = "<group>"; };
+		03B5A00B2A1809B60090DF27 /* Economica-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Economica-Italic.ttf"; sourceTree = "<group>"; };
+		03B5A00D2A1809C90090DF27 /* Economica-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Economica-BoldItalic.ttf"; sourceTree = "<group>"; };
 		6710FE152A0C1CE40048FB75 /* Virtual Closet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virtual Closet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6710FE182A0C1CE40048FB75 /* Virtual_ClosetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_ClosetApp.swift; sourceTree = "<group>"; };
 		6710FE1A2A0C1CE40048FB75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				6710FE1A2A0C1CE40048FB75 /* ContentView.swift */,
 				03B5A0072A1809110090DF27 /* Economica-Bold.ttf */,
 				03B5A0092A18091C0090DF27 /* Economica-Regular.ttf */,
+				03B5A00B2A1809B60090DF27 /* Economica-Italic.ttf */,
+				03B5A00D2A1809C90090DF27 /* Economica-BoldItalic.ttf */,
 				03B5A0052A1808180090DF27 /* Economica */,
 				672497492A17CBCC004CC12E /* MyClosetView.swift */,
 				6724973F2A16E7C5004CC12E /* Launch Screen.storyboard */,
@@ -251,8 +257,10 @@
 				03B5A00A2A18091C0090DF27 /* Economica-Regular.ttf in Resources */,
 				03B5A0082A1809110090DF27 /* Economica-Bold.ttf in Resources */,
 				672497402A16E7C5004CC12E /* Launch Screen.storyboard in Resources */,
+				03B5A00C2A1809B60090DF27 /* Economica-Italic.ttf in Resources */,
 				6710FE202A0C1CE60048FB75 /* Preview Assets.xcassets in Resources */,
 				6710FE1D2A0C1CE60048FB75 /* Assets.xcassets in Resources */,
+				03B5A00E2A1809C90090DF27 /* Economica-BoldItalic.ttf in Resources */,
 				03B5A0062A1808190090DF27 /* Economica in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

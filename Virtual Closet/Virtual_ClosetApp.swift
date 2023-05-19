@@ -11,7 +11,6 @@ import SwiftUI
 struct Virtual_ClosetApp: App {
     var body: some Scene {
         WindowGroup {
-        
             ContentView()
         }
     }

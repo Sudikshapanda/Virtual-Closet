@@ -8,15 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State public var showingCloset = false
     var body: some View {
-        VStack {
-            Image("my closet")
-                .resizable()
-                .frame(width:1056, height:1024)
-                .offset(y: -110)
-                .animation(.easeInOut, value: true)
+        if showingCloset {
+            MyClosetView()
+        }else {
+            AppHome()
         }
-        .padding()
+        
         
     }
 }
@@ -26,5 +25,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
 
     

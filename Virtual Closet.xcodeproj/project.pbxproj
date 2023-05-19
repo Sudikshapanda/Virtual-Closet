@@ -15,6 +15,8 @@
 		6710FE342A0C1CE60048FB75 /* Virtual_ClosetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710FE332A0C1CE60048FB75 /* Virtual_ClosetUITests.swift */; };
 		6710FE362A0C1CE60048FB75 /* Virtual_ClosetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710FE352A0C1CE60048FB75 /* Virtual_ClosetUITestsLaunchTests.swift */; };
 		672497402A16E7C5004CC12E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6724973F2A16E7C5004CC12E /* Launch Screen.storyboard */; };
+		672497482A17CB8B004CC12E /* AppHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672497472A17CB8B004CC12E /* AppHome.swift */; };
+		6724974A2A17CBCC004CC12E /* MyClosetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672497492A17CBCC004CC12E /* MyClosetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6710FE352A0C1CE60048FB75 /* Virtual_ClosetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_ClosetUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6724973E2A16E69C004CC12E /* Virtual-Closet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Virtual-Closet-Info.plist"; sourceTree = SOURCE_ROOT; };
 		6724973F2A16E7C5004CC12E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		672497472A17CB8B004CC12E /* AppHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHome.swift; sourceTree = "<group>"; };
+		672497492A17CBCC004CC12E /* MyClosetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				6724973E2A16E69C004CC12E /* Virtual-Closet-Info.plist */,
 				6710FE182A0C1CE40048FB75 /* Virtual_ClosetApp.swift */,
 				6710FE1A2A0C1CE40048FB75 /* ContentView.swift */,
+				672497472A17CB8B004CC12E /* AppHome.swift */,
+				672497492A17CBCC004CC12E /* MyClosetView.swift */,
 				6724973F2A16E7C5004CC12E /* Launch Screen.storyboard */,
 				6710FE1C2A0C1CE60048FB75 /* Assets.xcassets */,
 				6710FE1E2A0C1CE60048FB75 /* Preview Content */,
@@ -263,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6724974A2A17CBCC004CC12E /* MyClosetView.swift in Sources */,
 				6710FE1B2A0C1CE40048FB75 /* ContentView.swift in Sources */,
+				672497482A17CB8B004CC12E /* AppHome.swift in Sources */,
 				6710FE192A0C1CE40048FB75 /* Virtual_ClosetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

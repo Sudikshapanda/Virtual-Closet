@@ -28,7 +28,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drip Master" translatesAutoresizingMaskIntoConstraints="NO" id="JFg-NH-4H0">
-                                <rect key="frame" x="-2" y="225" width="393" height="345"/>
+                                <rect key="frame" x="-4" y="225" width="393" height="345"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>

@@ -17,35 +17,59 @@ struct ContentView: View {
         }else {
             //AppHome()
             VStack {
-                Image("my closet")
+                Image("HomeHangers")
                     .resizable()
-                    .frame(width:1056, height:1024)
-                    .offset(y: -110)
                     .animation(.easeInOut, value: true)
                 HStack {
                     // Button 1: My Closet
                     Button(action: {showingCloset.toggle()}){
                         Text("My Closet")
                     }
-                    .offset(x: -42 , y: -568)
+                    .offset(x: -67 , y: -587)
                     .buttonStyle(HomeButton())
                     
                     // Button 2: Add Item
                     Button(action: {showingAddItem.toggle()}){
                         Text("Add Item")
                     }
-                    .offset(x: 8 , y: -568)
+                    .offset(x: 65 , y: -587)
                     .buttonStyle(HomeButton())
-                    
+                }
+               
+                HStack {
                     // Button 3: Clean Closet
-                    Button(action: {showingCleanCloset.toggle()}){
+                    Button(action: {showingCloset.toggle()}){
                         Text("Clean Closet")
                     }
-                    .offset(x: 50 , y: -568)
+                    .offset(x: -67 , y: -587)
+                    .buttonStyle(HomeButton())
+                    
+                    // Button 4: Plan Fit
+                    Button(action: {showingAddItem.toggle()}){
+                        Text("Plan Fit")
+                    }
+                    .offset(x: 65 , y: -587)
+                    .buttonStyle(HomeButton())
+                }
+                HStack {
+                    // Button 5: Post
+                    Button(action: {showingCloset.toggle()}){
+                        Text("Post")
+                    }
+                    .offset(x: -67 , y: -587)
+                    .buttonStyle(HomeButton())
+                    
+                    // Button 6: Help
+                    Button(action: {showingAddItem.toggle()}){
+                        Text("Help")
+                    }
+                    .offset(x: 65 , y: -587)
                     .buttonStyle(HomeButton())
                 }
             }
-            .padding()
+            //.padding()
+            .background(Image("HomeBackground2").resizable()).ignoresSafeArea()
+            
         }
 }
 }

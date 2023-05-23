@@ -19,20 +19,21 @@ struct ContentView: View {
             VStack {
                 Image("HomeHangers")
                     .resizable()
+                    .offset(y:20)
                     .animation(.easeInOut, value: true)
                 HStack {
                     // Button 1: My Closet
                     Button(action: {showingCloset.toggle()}){
                         Text("My Closet")
                     }
-                    .offset(x: -67 , y: -587)
+                    .offset(x: -67 , y: -520)
                     .buttonStyle(HomeButton())
                     
                     // Button 2: Add Item
                     Button(action: {showingAddItem.toggle()}){
                         Text("Add Item")
                     }
-                    .offset(x: 65 , y: -587)
+                    .offset(x: 65 , y: -520)
                     .buttonStyle(HomeButton())
                 }
                
@@ -41,14 +42,14 @@ struct ContentView: View {
                     Button(action: {showingCloset.toggle()}){
                         Text("Clean Closet")
                     }
-                    .offset(x: -67 , y: -587)
+                    .offset(x: -67 , y: -370)
                     .buttonStyle(HomeButton())
                     
                     // Button 4: Plan Fit
                     Button(action: {showingAddItem.toggle()}){
                         Text("Plan Fit")
                     }
-                    .offset(x: 65 , y: -587)
+                    .offset(x: 53 , y: -370)
                     .buttonStyle(HomeButton())
                 }
                 HStack {
@@ -56,14 +57,14 @@ struct ContentView: View {
                     Button(action: {showingCloset.toggle()}){
                         Text("Post")
                     }
-                    .offset(x: -67 , y: -587)
+                    .offset(x: -85 , y: -223)
                     .buttonStyle(HomeButton())
                     
                     // Button 6: Help
                     Button(action: {showingAddItem.toggle()}){
                         Text("Help")
                     }
-                    .offset(x: 65 , y: -587)
+                    .offset(x: 81 , y: -223)
                     .buttonStyle(HomeButton())
                 }
             }

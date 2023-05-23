@@ -57,19 +57,19 @@ struct ContentView: View {
                     Button(action: {showingCloset.toggle()}){
                         Text("Post")
                     }
-                    .offset(x: -85 , y: -223)
+                    .offset(x: -70 , y: -223)
                     .buttonStyle(HomeButton())
                     
                     // Button 6: Help
                     Button(action: {showingAddItem.toggle()}){
-                        Text("Help")
+                        Text("Settings")
                     }
                     .offset(x: 81 , y: -223)
                     .buttonStyle(HomeButton())
                 }
             }
             //.padding()
-            .background(Image("HomeBackground2").resizable()).ignoresSafeArea()
+            .background(Image("HomeBackground3").resizable()).ignoresSafeArea()
             
         }
 }

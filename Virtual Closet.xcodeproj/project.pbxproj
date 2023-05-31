@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0342C66C2A26F31900D7E6CF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0342C66B2A26F31800D7E6CF /* Launch Screen.storyboard */; };
 		03B5A0082A1809110090DF27 /* Economica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A0072A1809110090DF27 /* Economica-Bold.ttf */; };
 		03B5A00A2A18091C0090DF27 /* Economica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A0092A18091C0090DF27 /* Economica-Regular.ttf */; };
 		03B5A00C2A1809B60090DF27 /* Economica-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B5A00B2A1809B60090DF27 /* Economica-Italic.ttf */; };
@@ -18,7 +19,6 @@
 		6710FE2A2A0C1CE60048FB75 /* Virtual_ClosetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710FE292A0C1CE60048FB75 /* Virtual_ClosetTests.swift */; };
 		6710FE342A0C1CE60048FB75 /* Virtual_ClosetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710FE332A0C1CE60048FB75 /* Virtual_ClosetUITests.swift */; };
 		6710FE362A0C1CE60048FB75 /* Virtual_ClosetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710FE352A0C1CE60048FB75 /* Virtual_ClosetUITestsLaunchTests.swift */; };
-		672497402A16E7C5004CC12E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6724973F2A16E7C5004CC12E /* Launch Screen.storyboard */; };
 		6724974A2A17CBCC004CC12E /* MyClosetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672497492A17CBCC004CC12E /* MyClosetView.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0342C66B2A26F31800D7E6CF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		03B5A0072A1809110090DF27 /* Economica-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Economica-Bold.ttf"; sourceTree = "<group>"; };
 		03B5A0092A18091C0090DF27 /* Economica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Economica-Regular.ttf"; sourceTree = "<group>"; };
 		03B5A00B2A1809B60090DF27 /* Economica-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Economica-Italic.ttf"; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		6710FE332A0C1CE60048FB75 /* Virtual_ClosetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_ClosetUITests.swift; sourceTree = "<group>"; };
 		6710FE352A0C1CE60048FB75 /* Virtual_ClosetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_ClosetUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6724973E2A16E69C004CC12E /* Virtual-Closet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Virtual-Closet-Info.plist"; sourceTree = SOURCE_ROOT; };
-		6724973F2A16E7C5004CC12E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		672497492A17CBCC004CC12E /* MyClosetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,8 +114,8 @@
 				03B5A0092A18091C0090DF27 /* Economica-Regular.ttf */,
 				03B5A00B2A1809B60090DF27 /* Economica-Italic.ttf */,
 				03B5A00D2A1809C90090DF27 /* Economica-BoldItalic.ttf */,
+				0342C66B2A26F31800D7E6CF /* Launch Screen.storyboard */,
 				672497492A17CBCC004CC12E /* MyClosetView.swift */,
-				6724973F2A16E7C5004CC12E /* Launch Screen.storyboard */,
 				6710FE1C2A0C1CE60048FB75 /* Assets.xcassets */,
 				6710FE1E2A0C1CE60048FB75 /* Preview Content */,
 			);
@@ -253,11 +253,11 @@
 			files = (
 				03B5A00A2A18091C0090DF27 /* Economica-Regular.ttf in Resources */,
 				03B5A0082A1809110090DF27 /* Economica-Bold.ttf in Resources */,
-				672497402A16E7C5004CC12E /* Launch Screen.storyboard in Resources */,
 				03B5A00C2A1809B60090DF27 /* Economica-Italic.ttf in Resources */,
 				6710FE202A0C1CE60048FB75 /* Preview Assets.xcassets in Resources */,
 				6710FE1D2A0C1CE60048FB75 /* Assets.xcassets in Resources */,
 				03B5A00E2A1809C90090DF27 /* Economica-BoldItalic.ttf in Resources */,
+				0342C66C2A26F31900D7E6CF /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

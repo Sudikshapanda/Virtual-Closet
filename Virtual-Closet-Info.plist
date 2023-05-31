@@ -10,11 +10,6 @@
 		<string>Economica-BoldItalic</string>
 	</array>
 	<key>UILaunchScreen</key>
-	<dict>
-		<key>Drip Master</key>
-		<string>Drip Master</string>
-		<key>UILaunchScreen</key>
-		<dict/>
-	</dict>
+	<dict/>
 </dict>
 </plist>

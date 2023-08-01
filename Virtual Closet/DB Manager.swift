@@ -101,11 +101,12 @@ class DBManager
             if sqlite3_prepare_v2(db, queryStatementString, -1, &queryStatement, nil) == SQLITE_OK {
                         while sqlite3_step(queryStatement) == SQLITE_ROW {
                             let id = sqlite3_column_int(queryStatement, 0)
-                            let name = String(describing: String(cString: sqlite3_column_text(queryStatement, 1)))
-                            let year = sqlite3_column_int(queryStatement, 2)
+                            let type = String(describing: String(cString: sqlite3_column_text(queryStatement, 1)))
+                            let color = String(describing: String(cString: sqlite3_column_text(queryStatement, 2)))
+                            let season = String(describing: String(cString: sqlite3_column_text(queryStatement, 3)))
                             itm.append(Item(id: Int(id), type: type,  color: color, season: season))
                             print("Query Result:")
-                            print("\(id) | \(name) | \(year)")
+                            print("\(id) | \(type) | \(color)| \(season)")
                         }
                     } else {
                         print("SELECT statement could not be prepared")
@@ -129,4 +130,25 @@ class DBManager
             sqlite3_finalize(deleteStatement)
         }
     }
+    
+    func update(id: Int, newType: String, newColor: String, newSeason: String) {
+        let updateStatementString = "UPDATE Item SET type = ?, color = ?, season = ? WHERE Id = ?;"
+        var updateStatement: OpaquePointer? = nil
+        if sqlite3_prepare_v2(db, updateStatementString, -1, &updateStatement, nil) == SQLITE_OK {
+            sqlite3_bind_text(updateStatement, 1, (newType as NSString).utf8String, -1, nil)
+            sqlite3_bind_text(updateStatement, 2, (newColor as NSString).utf8String, -1, nil)
+            sqlite3_bind_text(updateStatement, 3, (newSeason as NSString).utf8String, -1, nil)
+            sqlite3_bind_int(updateStatement, 4, Int32(id))
+            
+            if sqlite3_step(updateStatement) == SQLITE_DONE {
+                print("Successfully updated row.")
+            } else {
+                print("Could not update row.")
+            }
+            sqlite3_finalize(updateStatement)
+        } else {
+            print("UPDATE statement could not be prepared.")
+        }
+    }
+
 }
